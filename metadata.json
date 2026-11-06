@@ -1,0 +1,6 @@
+{
+  "name": "iQOO Battery Health Inspector",
+  "description": "Battery health inspector and hardware diagnostics tailored for Vivo and iQOO devices running Funtouch OS and OriginOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

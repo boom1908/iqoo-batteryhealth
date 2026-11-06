@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">iQOO Battery Health Inspector</string>
+    <string name="battery_health_title">Battery Health</string>
+    <string name="sub_title_origin_funtouch">Vivo &amp; iQOO Hardware Diagnostics</string>
+    <string name="status_optimal">Optimal Condition</string>
+    <string name="status_normal">Good Health</string>
+    <string name="status_service">Service Recommended</string>
+    <string name="status_unknown">Analyzing...</string>
+
+    <string name="health_score_label">State of Health (ASOC)</string>
+    <string name="cycle_count_label">Charge Cycles</string>
+    <string name="current_capacity_label">Estimated Capacity</string>
+    <string name="design_capacity_label">Factory Rated</string>
+    <string name="voltage_label">Voltage</string>
+    <string name="temp_label">Temperature</string>
+    <string name="power_label">Current / Wattage</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_discharging">Discharging</string>
+    <string name="status_full">Full</string>
+    <string name="status_not_charging">Idle / Not Charging</string>
+
+    <string name="method_android14">Android 14+ StateOfHealth API</string>
+    <string name="method_shizuku">Shizuku Dumpsys (Funtouch / OriginOS)</string>
+    <string name="method_coulomb">Passive Coulomb Integration</string>
+    <string name="method_none">Standard BatteryManager</string>
+
+    <string name="permission_banner_title">Elevate Access For Native Vivo/iQOO Metrics</string>
+    <string name="permission_banner_desc">Funtouch OS stores raw capacity in mSavedBatteryAsoc. Grant BATTERY_STATS via ADB or use Shizuku to unlock hardware-level accuracy.</string>
+    <string name="adb_instruction_title">ADB Permission Command</string>
+    <string name="copy_command">Copy Command</string>
+    <string name="command_copied">Command copied to clipboard!</string>
+    <string name="open_shizuku">Request Shizuku Permission</string>
+    <string name="shizuku_not_installed">Shizuku service is not running or not installed</string>
+
+    <string name="model_database_title">Device Hardware Profile</string>
+    <string name="override_capacity">Manual Capacity Override</string>
+    <string name="raw_dumpsys_title">Raw Dumpsys &amp; Kernel Diagnostics</string>
+    <string name="refresh">Refresh Telemetry</string>
+    <string name="coulomb_counter_title">Active Coulomb Session</string>
+</resources>
